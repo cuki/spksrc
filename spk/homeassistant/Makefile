@@ -3,9 +3,9 @@ SPK_VERS = 0.118.5
 SPK_REV = 12
 SPK_ICON = src/${SPK_NAME}.png
 
-SPK_DEPENDS = "python3>=3.7.7"
+SPK_DEPENDS = "python38"
 
-BUILD_DEPENDS = cross/python3 cross/setuptools cross/pip cross/wheel
+BUILD_DEPENDS = cross/python38 cross/setuptools cross/pip cross/wheel
 BUILD_DEPENDS += cross/poetry
 
 DEPENDS += cross/libyaml cross/bcrypt cross/cryptography
